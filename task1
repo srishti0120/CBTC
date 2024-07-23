@@ -15,7 +15,7 @@ def divide(a, b):
     return a / b
 
 
-print("Choose operation.")
+print("Choose operation among the following options.")
 print("1.Addition")
 print("2.Subtraction")
 print("3.Multiplication")
@@ -31,7 +31,7 @@ while True:
             num1 = float(input("Enter num1: "))
             num2 = float(input("Enter num2: "))
         except ValueError:
-            print("Invalid input. Please enter a number.")
+            print("Invalid . Please enter a number.")
             continue
 
         if choice == '1':
